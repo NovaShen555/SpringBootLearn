@@ -9,4 +9,9 @@ public class HelloController {
     public String t1(){
         return "Hello World! \n SYH LOVE HLT!";
     }
+
+    @RequestMapping("/love")
+    public String t2(){
+        return "I also love java!";
+    }
 }
